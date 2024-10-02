@@ -24,7 +24,9 @@ import { usePixelStatus } from "@systemic-games/pixels-react";
 type PlayMode = "setup" | "transfer" | "play";
 type OddOrEven = "odd" | "even";
 
-const minNumDice = 3;
+
+const minNumDice = 1;
+// original minNumDice = 3;
 const delayBeforeAnimResults = 100;
 const delayBetweenAnimResults = 2000;
 
